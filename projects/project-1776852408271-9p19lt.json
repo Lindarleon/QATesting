@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "projectId": "project-1776852408271-9p19lt",
+  "name": "leon",
+  "nodes": [
+    {
+      "id": "page-1782284918388",
+      "type": "page",
+      "title": "Starting Node",
+      "description": "The HomePage of the App",
+      "status": "working",
+      "position": {
+        "x": -586.5,
+        "y": -206
+      },
+      "childrenIds": [
+        "tab-1782289777032"
+      ],
+      "mediaUrls": [],
+      "issueIds": [
+        "issue-1782285496133",
+        "issue-1782289897494",
+        "issue-1782290884120",
+        "issue-1782292030822",
+        "issue-1782294598877",
+        "issue-1782301578763",
+        "issue-1782303405364"
+      ],
+      "createdAt": "2026-06-24T07:08:38.388Z"
+    },
+    {
+      "id": "tab-1782289777032",
+      "type": "tab",
+      "title": "jn k",
+      "description": "j m ",
+      "status": "working",
+      "position": {
+        "x": 74.5,
+        "y": -398.5
+      },
+      "parentId": "page-1782284918388",
+      "childrenIds": [],
+      "mediaUrls": [],
+      "issueIds": [
+        "issue-1782289912052",
+        "issue-1782290896007",
+        "issue-1782292040659",
+        "issue-1782294612460",
+        "issue-1782301592498",
+        "issue-1782303419678"
+      ],
+      "createdAt": "2026-06-24T08:29:37.032Z"
+    },
+    {
+      "id": "page-1782294783969",
+      "type": "page",
+      "title": "Dashboard",
+      "description": "jdcsasda",
+      "status": "working",
+      "position": {
+        "x": -636,
+        "y": -510.5
+      },
+      "childrenIds": [],
+      "mediaUrls": [],
+      "issueIds": [
+        "issue-1782301568141",
+        "issue-1782303388683"
+      ],
+      "createdAt": "2026-06-24T09:53:03.969Z"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-page-1782284918388-tab-1782289777032",
+      "source": "page-1782284918388",
+      "target": "tab-1782289777032",
+      "type": "structure"
+    },
+    {
+      "id": "rel-1782294798420",
+      "source": "page-1782294783969",
+      "target": "tab-1782289777032",
+      "type": "relation"
+    },
+    {
+      "id": "rel-1782294800802",
+      "source": "page-1782294783969",
+      "target": "tab-1782289777032",
+      "type": "relation"
+    },
+    {
+      "id": "rel-1782294805909",
+      "source": "page-1782294783969",
+      "target": "tab-1782289777032",
+      "type": "relation"
+    },
+    {
+      "id": "rel-1782294822603",
+      "source": "page-1782294783969",
+      "target": "tab-1782289777032",
+      "type": "relation"
+    }
+  ],
+  "issues": [
+    {
+      "id": "issue-1782303388683",
+      "nodeId": "page-1782294783969",
+      "title": "fdffd",
+      "severity": "yellow",
+      "description": "dsddsd",
+      "stepsToReproduce": "dssdds",
+      "mediaUrls": [],
+      "createdAt": "2026-06-24T12:16:28.683Z",
+      "status": "open"
+    },
+    {
+      "id": "issue-1782303405364",
+      "nodeId": "page-1782284918388",
+      "title": "dsfsdfwsdf",
+      "severity": "red",
+      "description": "dsfsdfsdf",
+      "stepsToReproduce": "sdfsdfsd",
+      "mediaUrls": [],
+      "createdAt": "2026-06-24T12:16:45.364Z",
+      "status": "open"
+    },
+    {
+      "id": "issue-1782303419678",
+      "nodeId": "tab-1782289777032",
+      "title": "sdfsdfv",
+      "severity": "green",
+      "description": "sdfsdf",
+      "stepsToReproduce": "fdsf",
+      "mediaUrls": [],
+      "createdAt": "2026-06-24T12:16:59.678Z",
+      "status": "resolved"
+    }
+  ],
+  "issueHistory": [
+    {
+      "id": "hist-1782303388683",
+      "issueId": "issue-1782303388683",
+      "nodeId": "page-1782294783969",
+      "message": "Issue created: \"fdffd\"",
+      "status": "attempt",
+      "createdAt": "2026-06-24T12:16:28.683Z"
+    },
+    {
+      "id": "hist-1782303405364",
+      "issueId": "issue-1782303405364",
+      "nodeId": "page-1782284918388",
+      "message": "Issue created: \"dsfsdfwsdf\"",
+      "status": "attempt",
+      "createdAt": "2026-06-24T12:16:45.364Z"
+    },
+    {
+      "id": "hist-1782303419678",
+      "issueId": "issue-1782303419678",
+      "nodeId": "tab-1782289777032",
+      "message": "Issue created: \"sdfsdfv\"",
+      "status": "attempt",
+      "createdAt": "2026-06-24T12:16:59.678Z"
+    }
+  ],
+  "updatedAt": "2026-06-24T12:17:10.111Z"
+}
