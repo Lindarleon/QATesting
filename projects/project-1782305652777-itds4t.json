@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "projectId": "project-1782305652777-itds4t",
+  "name": "VersionPro",
+  "nodes": [
+    {
+      "id": "page-1782305732342",
+      "type": "page",
+      "title": "HomePage",
+      "description": "HomePage for Versionpro",
+      "status": "working",
+      "position": {
+        "x": -525.5,
+        "y": -343.5
+      },
+      "childrenIds": [
+        "element-1782305996406"
+      ],
+      "mediaUrls": [],
+      "issueIds": [
+        "issue-1782305942224"
+      ],
+      "createdAt": "2026-06-24T12:55:32.342Z"
+    },
+    {
+      "id": "element-1782305996406",
+      "type": "element",
+      "title": "ClientLogin",
+      "description": "",
+      "status": "working",
+      "position": {
+        "x": -225.5,
+        "y": -343.5
+      },
+      "parentId": "page-1782305732342",
+      "childrenIds": [],
+      "mediaUrls": [],
+      "issueIds": [],
+      "createdAt": "2026-06-24T12:59:56.406Z"
+    },
+    {
+      "id": "page-1782306015171",
+      "type": "page",
+      "title": "Dashboard Page",
+      "description": "",
+      "status": "working",
+      "position": {
+        "x": 100,
+        "y": 200
+      },
+      "childrenIds": [],
+      "mediaUrls": [],
+      "issueIds": [],
+      "createdAt": "2026-06-24T13:00:15.171Z"
+    },
+    {
+      "id": "page-1782306030362",
+      "type": "page",
+      "title": "Dashboard",
+      "description": "",
+      "status": "working",
+      "position": {
+        "x": 100,
+        "y": 400
+      },
+      "childrenIds": [],
+      "mediaUrls": [],
+      "issueIds": [],
+      "createdAt": "2026-06-24T13:00:30.362Z"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-page-1782305732342-element-1782305996406",
+      "source": "page-1782305732342",
+      "target": "element-1782305996406",
+      "type": "structure"
+    }
+  ],
+  "issues": [
+    {
+      "id": "issue-1782305942224",
+      "nodeId": "page-1782305732342",
+      "title": "Client Success Stories",
+      "severity": "red",
+      "description": "This section hasnt been utilized for clients to be able to rate and give feedback.",
+      "stepsToReproduce": "Add a rate and feedback feature on dashboard under Files button",
+      "mediaUrls": [],
+      "createdAt": "2026-06-24T12:59:02.224Z",
+      "status": "open"
+    }
+  ],
+  "issueHistory": [
+    {
+      "id": "hist-1782305942224",
+      "issueId": "issue-1782305942224",
+      "nodeId": "page-1782305732342",
+      "message": "Issue created: \"Client Success Stories\"",
+      "status": "attempt",
+      "createdAt": "2026-06-24T12:59:02.224Z"
+    }
+  ],
+  "updatedAt": "2026-06-24T13:00:40.647Z"
+}
