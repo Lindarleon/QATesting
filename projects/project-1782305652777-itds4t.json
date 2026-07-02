@@ -7,11 +7,12 @@
       "id": "page-1782305732342",
       "type": "page",
       "title": "HomePage",
+      "label": "HomePage",
       "description": "HomePage for Versionpro",
       "status": "working",
       "position": {
-        "x": -525.5,
-        "y": -343.5
+        "x": -560.897672826831,
+        "y": -42.61978097193702
       },
       "childrenIds": [
         "element-1782305996406"
@@ -20,52 +21,68 @@
       "issueIds": [
         "issue-1782305942224"
       ],
+      "featureHistory": [],
+      "activeFeatureId": null,
+      "issueHistory": [],
+      "activeIssues": [],
+      "resolvedIssues": [],
+      "metadata": {},
       "createdAt": "2026-06-24T12:55:32.342Z"
     },
     {
       "id": "element-1782305996406",
       "type": "element",
       "title": "ClientLogin",
+      "label": "ClientLogin",
       "description": "",
       "status": "working",
       "position": {
-        "x": -225.5,
-        "y": -343.5
+        "x": 24.812114989733047,
+        "y": -89.39527720739218
       },
       "parentId": "page-1782305732342",
       "childrenIds": [],
       "mediaUrls": [],
       "issueIds": [],
-      "createdAt": "2026-06-24T12:59:56.406Z"
-    },
-    {
-      "id": "page-1782306015171",
-      "type": "page",
-      "title": "Dashboard Page",
-      "description": "",
-      "status": "working",
-      "position": {
-        "x": 100,
-        "y": 200
+      "featureHistory": [
+        {
+          "featureId": "feature-element-1782305996406-1782984887193",
+          "title": "ClientLogin",
+          "description": "Component type changed to Button",
+          "createdAt": "2026-07-02T09:34:47.193Z",
+          "versionNumber": 1,
+          "status": "active"
+        }
+      ],
+      "activeFeatureId": "feature-element-1782305996406-1782984887193",
+      "issueHistory": [],
+      "activeIssues": [],
+      "resolvedIssues": [],
+      "metadata": {
+        "componentType": "Button"
       },
-      "childrenIds": [],
-      "mediaUrls": [],
-      "issueIds": [],
-      "createdAt": "2026-06-24T13:00:15.171Z"
+      "createdAt": "2026-06-24T12:59:56.406Z"
     },
     {
       "id": "page-1782306030362",
       "type": "page",
       "title": "Dashboard",
+      "label": "Dashboard",
       "description": "",
       "status": "working",
       "position": {
-        "x": 100,
-        "y": 400
+        "x": -523.8839835728952,
+        "y": -273.81998631074606
       },
       "childrenIds": [],
       "mediaUrls": [],
       "issueIds": [],
+      "featureHistory": [],
+      "activeFeatureId": null,
+      "issueHistory": [],
+      "activeIssues": [],
+      "resolvedIssues": [],
+      "metadata": {},
       "createdAt": "2026-06-24T13:00:30.362Z"
     }
   ],
@@ -77,28 +94,7 @@
       "type": "structure"
     }
   ],
-  "issues": [
-    {
-      "id": "issue-1782305942224",
-      "nodeId": "page-1782305732342",
-      "title": "Client Success Stories",
-      "severity": "red",
-      "description": "This section hasnt been utilized for clients to be able to rate and give feedback.",
-      "stepsToReproduce": "Add a rate and feedback feature on dashboard under Files button",
-      "mediaUrls": [],
-      "createdAt": "2026-06-24T12:59:02.224Z",
-      "status": "open"
-    }
-  ],
-  "issueHistory": [
-    {
-      "id": "hist-1782305942224",
-      "issueId": "issue-1782305942224",
-      "nodeId": "page-1782305732342",
-      "message": "Issue created: \"Client Success Stories\"",
-      "status": "attempt",
-      "createdAt": "2026-06-24T12:59:02.224Z"
-    }
-  ],
-  "updatedAt": "2026-06-24T13:00:40.647Z"
+  "issues": [],
+  "issueHistory": [],
+  "updatedAt": "2026-07-02T09:34:55.030Z"
 }
