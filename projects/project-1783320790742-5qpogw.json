@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "projectId": "project-1783320790742-5qpogw",
+  "name": "Testing Initial Nodes",
+  "nodes": [
+    {
+      "id": "page-1783320791163-2",
+      "type": "page",
+      "title": "Login",
+      "label": "Login",
+      "description": "",
+      "childrenIds": [
+        "tab-1783320791163-4",
+        "tab-1783320791163-8"
+      ],
+      "status": "working",
+      "position": {
+        "x": 100,
+        "y": 100
+      },
+      "mediaUrls": [],
+      "issueIds": [],
+      "featureHistory": [
+        {
+          "featureId": "page-feature-1783320791163-1",
+          "title": "Login",
+          "description": "page created",
+          "createdAt": "2026-07-06T06:53:11.163Z",
+          "versionNumber": 1,
+          "status": "active"
+        }
+      ],
+      "activeFeatureId": "page-feature-1783320791163-1",
+      "issueHistory": [],
+      "activeIssues": [],
+      "resolvedIssues": [],
+      "metadata": {},
+      "createdAt": "2026-07-06T06:53:11.163Z"
+    },
+    {
+      "id": "tab-1783320791163-4",
+      "type": "tab",
+      "title": "Sign In",
+      "label": "Sign In",
+      "description": "",
+      "parentId": "page-1783320791163-2",
+      "parentPageId": "page-1783320791163-2",
+      "childrenIds": [
+        "element-1783320791163-6"
+      ],
+      "status": "working",
+      "position": {
+        "x": 400,
+        "y": 100
+      },
+      "mediaUrls": [],
+      "issueIds": [],
+      "featureHistory": [
+        {
+          "featureId": "tab-feature-1783320791163-3",
+          "title": "Sign In",
+          "description": "tab created",
+          "createdAt": "2026-07-06T06:53:11.163Z",
+          "versionNumber": 1,
+          "status": "active"
+        }
+      ],
+      "activeFeatureId": "tab-feature-1783320791163-3",
+      "issueHistory": [],
+      "activeIssues": [],
+      "resolvedIssues": [],
+      "metadata": {},
+      "createdAt": "2026-07-06T06:53:11.163Z"
+    },
+    {
+      "id": "element-1783320791163-6",
+      "type": "element",
+      "title": "Sign In",
+      "label": "Sign In",
+      "description": "",
+      "parentId": "tab-1783320791163-4",
+      "parentPageId": "page-1783320791163-2",
+      "childrenIds": [],
+      "status": "working",
+      "position": {
+        "x": 700,
+        "y": 100
+      },
+      "mediaUrls": [],
+      "issueIds": [],
+      "featureHistory": [
+        {
+          "featureId": "element-feature-1783320791163-5",
+          "title": "Sign In",
+          "description": "element created",
+          "createdAt": "2026-07-06T06:53:11.163Z",
+          "versionNumber": 1,
+          "status": "active"
+        }
+      ],
+      "activeFeatureId": "element-feature-1783320791163-5",
+      "issueHistory": [],
+      "activeIssues": [],
+      "resolvedIssues": [],
+      "metadata": {
+        "componentType": "Button"
+      },
+      "createdAt": "2026-07-06T06:53:11.163Z"
+    },
+    {
+      "id": "tab-1783320791163-8",
+      "type": "tab",
+      "title": "Sign Up",
+      "label": "Sign Up",
+      "description": "",
+      "parentId": "page-1783320791163-2",
+      "parentPageId": "page-1783320791163-2",
+      "childrenIds": [
+        "element-1783320791163-10"
+      ],
+      "status": "working",
+      "position": {
+        "x": 400,
+        "y": 250
+      },
+      "mediaUrls": [],
+      "issueIds": [],
+      "featureHistory": [
+        {
+          "featureId": "tab-feature-1783320791163-7",
+          "title": "Sign Up",
+          "description": "tab created",
+          "createdAt": "2026-07-06T06:53:11.163Z",
+          "versionNumber": 1,
+          "status": "active"
+        }
+      ],
+      "activeFeatureId": "tab-feature-1783320791163-7",
+      "issueHistory": [],
+      "activeIssues": [],
+      "resolvedIssues": [],
+      "metadata": {},
+      "createdAt": "2026-07-06T06:53:11.163Z"
+    },
+    {
+      "id": "element-1783320791163-10",
+      "type": "element",
+      "title": "Create Account",
+      "label": "Create Account",
+      "description": "",
+      "parentId": "tab-1783320791163-8",
+      "parentPageId": "page-1783320791163-2",
+      "childrenIds": [],
+      "status": "working",
+      "position": {
+        "x": 700,
+        "y": 250
+      },
+      "mediaUrls": [],
+      "issueIds": [],
+      "featureHistory": [
+        {
+          "featureId": "element-feature-1783320791163-9",
+          "title": "Create Account",
+          "description": "element created",
+          "createdAt": "2026-07-06T06:53:11.163Z",
+          "versionNumber": 1,
+          "status": "active"
+        }
+      ],
+      "activeFeatureId": "element-feature-1783320791163-9",
+      "issueHistory": [],
+      "activeIssues": [],
+      "resolvedIssues": [],
+      "metadata": {
+        "componentType": "Button"
+      },
+      "createdAt": "2026-07-06T06:53:11.163Z"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-page-1783320791163-2-tab-1783320791163-4",
+      "source": "page-1783320791163-2",
+      "target": "tab-1783320791163-4",
+      "type": "structure"
+    },
+    {
+      "id": "edge-tab-1783320791163-4-element-1783320791163-6",
+      "source": "tab-1783320791163-4",
+      "target": "element-1783320791163-6",
+      "type": "structure"
+    },
+    {
+      "id": "edge-page-1783320791163-2-tab-1783320791163-8",
+      "source": "page-1783320791163-2",
+      "target": "tab-1783320791163-8",
+      "type": "structure"
+    },
+    {
+      "id": "edge-tab-1783320791163-8-element-1783320791163-10",
+      "source": "tab-1783320791163-8",
+      "target": "element-1783320791163-10",
+      "type": "structure"
+    }
+  ],
+  "issues": [],
+  "issueHistory": [],
+  "updatedAt": "2026-07-06T06:53:11.620Z"
+}
